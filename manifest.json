@@ -1,0 +1,15 @@
+{
+     "name":"notepad extension",
+     "version":"0.0.1",
+     "manifest_version":2,
+     "description":"It allows you to save key points",
+ "browser_action": {
+     "default_popup": "popup.html"
+ },
+ "permissions":[
+         "<all_urls>",
+         "storage",
+         "notifications",
+         "activeTab"
+ ]
+ }
